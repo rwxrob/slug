@@ -21,12 +21,12 @@ package z
 
 import (
 	Z "github.com/rwxrob/bonzai/z"
-	example "github.com/rwxrob/slug"
+	"github.com/rwxrob/slug"
 )
 
 var Cmd = &Z.Cmd{
 	Name:     `z`,
-	Commands: []*Z.Cmd{help.Cmd, example.Cmd, example.BazCmd},
+	Commands: []*Z.Cmd{help.Cmd, slug.Cmd},
 }
 ```
 
